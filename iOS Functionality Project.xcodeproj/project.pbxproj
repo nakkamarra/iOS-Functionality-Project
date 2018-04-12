@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010484C62080012F00F1CD68 /* SystemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010484C52080012F00F1CD68 /* SystemView.swift */; };
 		01354BD0207ECC7400800BC5 /* Gyroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BCF207ECC7400800BC5 /* Gyroscope.swift */; };
 		01354BD2207ECC8000800BC5 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD1207ECC8000800BC5 /* Accelerometer.swift */; };
 		01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD3207ECC8B00800BC5 /* Barometer.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		010484C52080012F00F1CD68 /* SystemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemView.swift; sourceTree = "<group>"; };
 		01354BCF207ECC7400800BC5 /* Gyroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyroscope.swift; sourceTree = "<group>"; };
 		01354BD1207ECC8000800BC5 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
 		01354BD3207ECC8B00800BC5 /* Barometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				01354BD1207ECC8000800BC5 /* Accelerometer.swift */,
 				01354BD3207ECC8B00800BC5 /* Barometer.swift */,
 				01354BD5207ECC9700800BC5 /* HapticFeedback.swift */,
+				010484C52080012F00F1CD68 /* SystemView.swift */,
 			);
 			path = "iOS Functionality Project";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				01354BD0207ECC7400800BC5 /* Gyroscope.swift in Sources */,
+				010484C62080012F00F1CD68 /* SystemView.swift in Sources */,
 				01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */,
 				01354BD2207ECC8000800BC5 /* Accelerometer.swift in Sources */,
 				019B07DA207EA828001A67C6 /* MainDirectory.swift in Sources */,
