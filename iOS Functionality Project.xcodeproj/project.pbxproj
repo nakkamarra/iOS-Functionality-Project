@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01354BD0207ECC7400800BC5 /* Gyroscope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BCF207ECC7400800BC5 /* Gyroscope.swift */; };
+		01354BD2207ECC8000800BC5 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD1207ECC8000800BC5 /* Accelerometer.swift */; };
+		01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD3207ECC8B00800BC5 /* Barometer.swift */; };
+		01354BD6207ECC9700800BC5 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD5207ECC9700800BC5 /* HapticFeedback.swift */; };
 		019B07D8207EA828001A67C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D7207EA828001A67C6 /* AppDelegate.swift */; };
-		019B07DA207EA828001A67C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D9207EA828001A67C6 /* ViewController.swift */; };
-		019B07DD207EA828001A67C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B07DB207EA828001A67C6 /* Main.storyboard */; };
+		019B07DA207EA828001A67C6 /* MainDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D9207EA828001A67C6 /* MainDirectory.swift */; };
 		019B07DF207EA828001A67C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019B07DE207EA828001A67C6 /* Assets.xcassets */; };
-		019B07E2207EA828001A67C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 019B07E0207EA828001A67C6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01354BCF207ECC7400800BC5 /* Gyroscope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyroscope.swift; sourceTree = "<group>"; };
+		01354BD1207ECC8000800BC5 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
+		01354BD3207ECC8B00800BC5 /* Barometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer.swift; sourceTree = "<group>"; };
+		01354BD5207ECC9700800BC5 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 		019B07D4207EA828001A67C6 /* iOS Functionality Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Functionality Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019B07D7207EA828001A67C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		019B07D9207EA828001A67C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		019B07DC207EA828001A67C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		019B07D9207EA828001A67C6 /* MainDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDirectory.swift; sourceTree = "<group>"; };
 		019B07DE207EA828001A67C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		019B07E1207EA828001A67C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019B07E3207EA828001A67C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				019B07D7207EA828001A67C6 /* AppDelegate.swift */,
-				019B07D9207EA828001A67C6 /* ViewController.swift */,
-				019B07DB207EA828001A67C6 /* Main.storyboard */,
+				019B07D9207EA828001A67C6 /* MainDirectory.swift */,
 				019B07DE207EA828001A67C6 /* Assets.xcassets */,
-				019B07E0207EA828001A67C6 /* LaunchScreen.storyboard */,
 				019B07E3207EA828001A67C6 /* Info.plist */,
+				01354BCF207ECC7400800BC5 /* Gyroscope.swift */,
+				01354BD1207ECC8000800BC5 /* Accelerometer.swift */,
+				01354BD3207ECC8B00800BC5 /* Barometer.swift */,
+				01354BD5207ECC9700800BC5 /* HapticFeedback.swift */,
 			);
 			path = "iOS Functionality Project";
 			sourceTree = "<group>";
@@ -123,9 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019B07E2207EA828001A67C6 /* LaunchScreen.storyboard in Resources */,
 				019B07DF207EA828001A67C6 /* Assets.xcassets in Resources */,
-				019B07DD207EA828001A67C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,31 +140,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				019B07DA207EA828001A67C6 /* ViewController.swift in Sources */,
+				01354BD0207ECC7400800BC5 /* Gyroscope.swift in Sources */,
+				01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */,
+				01354BD2207ECC8000800BC5 /* Accelerometer.swift in Sources */,
+				019B07DA207EA828001A67C6 /* MainDirectory.swift in Sources */,
 				019B07D8207EA828001A67C6 /* AppDelegate.swift in Sources */,
+				01354BD6207ECC9700800BC5 /* HapticFeedback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		019B07DB207EA828001A67C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				019B07DC207EA828001A67C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		019B07E0207EA828001A67C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				019B07E1207EA828001A67C6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		019B07E4207EA828001A67C6 /* Debug */ = {
@@ -275,6 +264,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V2SXNBH8E;
 				INFOPLIST_FILE = "iOS Functionality Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nakkamarra.iOS-Functionality-Project";
@@ -289,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V2SXNBH8E;
 				INFOPLIST_FILE = "iOS Functionality Project/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nakkamarra.iOS-Functionality-Project";
