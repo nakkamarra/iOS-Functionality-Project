@@ -15,8 +15,8 @@ This project essentially focuses on the CPU usage and memory requirements of uti
 * __Haptic Feedback:__ this class utilizes instances of the ```UIButton``` class for using the device's haptic feedback engine to generate vibrations on button press. There will be a button for each degree of intensity of haptic feedback. This class will also display the CPU and memory impact that a button press will have on the device in real time by using an instance of the SystemView.
 
 * __Barometer:__ this class reads the device's barometer/altimeter and displays the input in real time to the user interface. Two ```UILabel```s will be used to display the output data from the ```CoreMotion``` Altimeter, and the readings for altitude measure two important changes: 
-          * the relative altitude change since the start of the input stream
-          * the measurement of atmospheric pressure, measured in kilopascals
+    * the relative altitude change since the start of the input stream
+    * the measurement of atmospheric pressure, measured in kilopascals
 
 * __Accelerometer:__ this class implements methods for reading the device's accelerometer data and outputting the data in real time to the user interface. The ```CoreMotion```'s Accelerometer input measures the devices relative gravitational force from an arbitrary location as a function of the gravitational acceleration toward Earth, where the value 1.0 represents the standard _g_ value (9.8 m/s). For example, if the device were to be dropped from high up, the accelerometer would read the gravitational force of freefall as 1. This reading is displayed using a ```UILabel```. This class will also display the CPU and memory impact that this class is having on the device in real time by using an instance of the SystemView. 
 
