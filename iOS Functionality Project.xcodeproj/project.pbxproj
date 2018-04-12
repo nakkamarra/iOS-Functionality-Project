@@ -11,6 +11,7 @@
 		01354BD2207ECC8000800BC5 /* Accelerometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD1207ECC8000800BC5 /* Accelerometer.swift */; };
 		01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD3207ECC8B00800BC5 /* Barometer.swift */; };
 		01354BD6207ECC9700800BC5 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD5207ECC9700800BC5 /* HapticFeedback.swift */; };
+		01354BD8207F13A700800BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01354BD7207F13A700800BC5 /* LaunchScreen.storyboard */; };
 		019B07D8207EA828001A67C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D7207EA828001A67C6 /* AppDelegate.swift */; };
 		019B07DA207EA828001A67C6 /* MainDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D9207EA828001A67C6 /* MainDirectory.swift */; };
 		019B07DF207EA828001A67C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019B07DE207EA828001A67C6 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		01354BD1207ECC8000800BC5 /* Accelerometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accelerometer.swift; sourceTree = "<group>"; };
 		01354BD3207ECC8B00800BC5 /* Barometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer.swift; sourceTree = "<group>"; };
 		01354BD5207ECC9700800BC5 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
+		01354BD7207F13A700800BC5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		019B07D4207EA828001A67C6 /* iOS Functionality Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Functionality Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019B07D7207EA828001A67C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019B07D9207EA828001A67C6 /* MainDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDirectory.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				019B07D7207EA828001A67C6 /* AppDelegate.swift */,
 				019B07D9207EA828001A67C6 /* MainDirectory.swift */,
 				019B07DE207EA828001A67C6 /* Assets.xcassets */,
+				01354BD7207F13A700800BC5 /* LaunchScreen.storyboard */,
 				019B07E3207EA828001A67C6 /* Info.plist */,
 				01354BCF207ECC7400800BC5 /* Gyroscope.swift */,
 				01354BD1207ECC8000800BC5 /* Accelerometer.swift */,
@@ -130,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				019B07DF207EA828001A67C6 /* Assets.xcassets in Resources */,
+				01354BD8207F13A700800BC5 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +274,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "nakkamarra.iOS-Functionality-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -285,7 +289,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "nakkamarra.iOS-Functionality-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
