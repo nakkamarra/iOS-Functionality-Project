@@ -12,6 +12,7 @@ class SystemView : UIView {
     
     let memoryLabel = UILabel()
     let cpuLabel = UILabel()
+    let task = task_basic_info()
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -35,22 +36,24 @@ class SystemView : UIView {
     }
     
     @objc func reportMemory() {
-        memoryLabel.text = "MEM: " + String(task_basic_info().resident_size)
+        memoryLabel.text = "MEM: Using " + String(describing: task.resident_size) + " bytes"
     }
     
     @objc func reportCpu() {
-        cpuLabel.text = "CPU: " + String(task_basic_info().policy)
+        cpuLabel.text = "CPU: Using " + String(describing: task.virtual_size) + " percent"
     }
     
     override func layoutSubviews() {
         memoryLabel.translatesAutoresizingMaskIntoConstraints = false
         memoryLabel.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
         memoryLabel.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
-        memoryLabel.font = UIFont(name: "Avenir Next", size: 24)
+        memoryLabel.font = UIFont(name: "Avenir Next", size: 20)
+        memoryLabel.numberOfLines = 0
         
         cpuLabel.translatesAutoresizingMaskIntoConstraints = false
         cpuLabel.topAnchor.constraint(equalTo: memoryLabel.bottomAnchor).isActive = true
         cpuLabel.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
-        cpuLabel.font = UIFont(name: "Avenir Next", size: 24)
+        cpuLabel.font = UIFont(name: "Avenir Next", size: 20)
+        cpuLabel.numberOfLines = 0
     }
 }
