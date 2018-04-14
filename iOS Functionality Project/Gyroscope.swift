@@ -102,5 +102,12 @@ private extension Gyroscope {
         view.addSubview(floater)
         floater.translatesAutoresizingMaskIntoConstraints = false
         floater.backgroundColor = .green
+        
+        let systemView = SystemView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+        view.addSubview(systemView)
+        systemView.translatesAutoresizingMaskIntoConstraints = false
+        systemView.widthAnchor.constraint(equalTo: view.safeAreaLayoutGuide.widthAnchor).isActive = true
+        systemView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        systemView.heightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.heightAnchor, multiplier: 0.3).isActive = true
     }
 }

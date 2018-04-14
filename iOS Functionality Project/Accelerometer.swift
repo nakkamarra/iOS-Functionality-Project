@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreMotion
 
 class Accelerometer : UIViewController {
     
@@ -15,5 +16,8 @@ class Accelerometer : UIViewController {
         view.backgroundColor = .green
     }
     
+    func startAccelerometer() {
+        
+    }
 }
 

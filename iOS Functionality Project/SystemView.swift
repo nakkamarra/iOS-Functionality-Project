@@ -45,10 +45,12 @@ class SystemView : UIView {
     override func layoutSubviews() {
         memoryLabel.translatesAutoresizingMaskIntoConstraints = false
         memoryLabel.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        memoryLabel.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 8).isActive = true
+        memoryLabel.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        memoryLabel.font = UIFont(name: "Avenir Next", size: 24)
         
         cpuLabel.translatesAutoresizingMaskIntoConstraints = false
         cpuLabel.topAnchor.constraint(equalTo: memoryLabel.bottomAnchor).isActive = true
-        memoryLabel.leftAnchor.constraint(equalTo: memoryLabel.leftAnchor).isActive = true
+        cpuLabel.leftAnchor.constraint(equalTo: self.leftAnchor).isActive = true
+        cpuLabel.font = UIFont(name: "Avenir Next", size: 24)
     }
 }
