@@ -28,16 +28,12 @@ Since the pressure exerted on the device in a normal situation should be around 
 ## Demonstration Clips
 Here are some clips of an actual device being recorded using QuickTime to demonstrate each class. In each video, we can see that the UI and the functionality of each class requires more memory and some increased percentage of CPU from the device: 
 
-<video width="320" height="240" controls>
-  <source src="/Demonstration Video Files/Gyroscope.mov" type="video/mov">
-</video>
+![Gyroscope](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Gyroscope.gif "Observe the change in rotation in each axis as the device is rotated. The rotation can be roughly understood as the reverse effect of the green view's movement (device tilt away from user moves the view toward the user).")
 
-![Gyroscope](/Demonstration Video Files/Gyroscope.mov "Observe the change in rotation in each axis as the device is rotated. The rotation can be roughly understood as the reverse effect of the green view's movement (device tilt away from user moves the view toward the user).")
+![Haptic Feedback](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Haptic-Feedback.gif "Although the vibration from the haptic feedback cannot be felt, this clip at least shows the animation differences between each intensity of haptic feedback.")
 
-![Haptic Feedback](/Demonstration Video Files/Haptic Feedback.mov "Although the vibration from the haptic feedback cannot be felt, this clip at least shows the animation differences between each intensity of haptic feedback.")
+![Barometer](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Barometer.gif "Observe the change in relative altitude as the phone is raised above and then lowered below the original starting position. This clip also demonstrates the atmospheric pressure in kilopascals (1 ATM ≈ 101 kPa).")
 
-![Barometer](/Demonstration Video Files/Barometer.mov "Observe the change in relative altitude as the phone is raised above and then lowered below the original starting position. This clip also demonstrates the atmospheric pressure in kilopascals (1 ATM ≈ 101 kPa).")
+![Accelerometer](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Accelerometer.gif "Observe how, when the phone is held along some given axis, the gravitational constant can be seen as the velocity of the device in that dimension. This clip explores each axis in positive and negative (up and down).")
 
-![Accelerometer](/Demonstration Video Files/Accelerometer.mov "Observe how, when the phone is held along some given axis, the gravitational constant can be seen as the velocity of the device in that dimension. This clip explores each axis in positive and negative (up and down).")
-
-![Magnetometer](/Demonstration Video Files/Magnetometer.mov "Observe the slight difference between magnetic true north and geographic true north, as well as how the magnetic fields around the device are read in each dimension. This clip explores each of the 4 cardinal directions.")
+![Magnetometer](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Magnetometer.gif "Observe the slight difference between magnetic true north and geographic true north, as well as how the magnetic fields around the device are read in each dimension. This clip explores each of the 4 cardinal directions.")
