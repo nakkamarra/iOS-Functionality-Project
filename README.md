@@ -31,24 +31,24 @@ Here are some clips of an actual device being recorded using QuickTime to demons
 
 Observe the change in rotation in each axis as the device is rotated. The rotation can be roughly understood as the reverse effect of the green view's movement (device tilt away from user moves the view toward the user).
 
-![Gyroscope](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Gyroscope.gif =250x)
+<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Gyroscope.gif" width="240">
 
 
 Although the vibration from the haptic feedback cannot be felt, this clip at least shows the animation differences between each intensity of haptic feedback.
 
-![Haptic Feedback](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Haptic-Feedback.gif =250x)
+<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Haptic-Feedback.gif" width="240">
 
 
 Observe the change in relative altitude as the phone is raised above and then lowered below the original starting position. This clip also demonstrates the atmospheric pressure in kilopascals (1 ATM ≈ 101 kPa).
 
-![Barometer](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Barometer.gif =250x)
+<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Barometer.gif" width="240">
 
 
 Observe how, when the phone is held along some given axis, the gravitational constant can be seen as the velocity of the device in that dimension. This clip explores each axis in positive and negative (up and down).
 
-![Accelerometer](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Accelerometer.gif =250x)
+<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Accelerometer.gif" width="240">
 
 
 Observe the slight difference between magnetic true north and geographic true north, as well as how the magnetic fields around the device are read in each dimension. This clip explores each of the 4 cardinal directions.
 
-![Magnetometer](https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Magnetometer.gif =250x)
+<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Magnetometer.gif" width="240">
