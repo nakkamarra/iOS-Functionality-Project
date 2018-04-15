@@ -17,7 +17,7 @@ class Gyroscope : UIViewController {
     let trigger = UIButton(type: .roundedRect)
     var floater = UIView()
     let motionManager = CMMotionManager()
-    let gyroReadRate = 1.0 / 15.0
+    let gyroReadRate = 1.0 / 15.0 //15Hz
     var timer : Timer?
     
     override func viewDidLoad() {

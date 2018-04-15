@@ -12,7 +12,7 @@ class MainDirectory: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     let instructions = UILabel()
     let featuresTable = UITableView()
-    let features = ["Gyroscope Demo", "Haptic Feedback Demo", "Barometer Demo", "Accelerometer Demo"]
+    let features = ["Gyroscope Demo", "Haptic Feedback Demo", "Barometer Demo", "Accelerometer Demo", "Magnetometer Demo"]
     let reuseID = "CellID"
 
     override func viewDidLoad() {
@@ -39,6 +39,9 @@ class MainDirectory: UIViewController, UITableViewDelegate, UITableViewDataSourc
                 break
             case features[3]?:
                 self.navigationController?.pushViewController(Accelerometer(), animated: true)
+                break
+            case features[4]?:
+                self.navigationController?.pushViewController(Magnetometer(), animated: true)
                 break
             default:
                 break

@@ -13,6 +13,7 @@
 		01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD3207ECC8B00800BC5 /* Barometer.swift */; };
 		01354BD6207ECC9700800BC5 /* HapticFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01354BD5207ECC9700800BC5 /* HapticFeedback.swift */; };
 		01354BD8207F13A700800BC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01354BD7207F13A700800BC5 /* LaunchScreen.storyboard */; };
+		018C14DB2082B3CB004EF535 /* Magnetometer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 018C14DA2082B3CB004EF535 /* Magnetometer.swift */; };
 		019B07D8207EA828001A67C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D7207EA828001A67C6 /* AppDelegate.swift */; };
 		019B07DA207EA828001A67C6 /* MainDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019B07D9207EA828001A67C6 /* MainDirectory.swift */; };
 		019B07DF207EA828001A67C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 019B07DE207EA828001A67C6 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 		01354BD3207ECC8B00800BC5 /* Barometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barometer.swift; sourceTree = "<group>"; };
 		01354BD5207ECC9700800BC5 /* HapticFeedback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticFeedback.swift; sourceTree = "<group>"; };
 		01354BD7207F13A700800BC5 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		018C14DA2082B3CB004EF535 /* Magnetometer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magnetometer.swift; sourceTree = "<group>"; };
 		019B07D4207EA828001A67C6 /* iOS Functionality Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Functionality Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		019B07D7207EA828001A67C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		019B07D9207EA828001A67C6 /* MainDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDirectory.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				01354BD3207ECC8B00800BC5 /* Barometer.swift */,
 				01354BD5207ECC9700800BC5 /* HapticFeedback.swift */,
 				010484C52080012F00F1CD68 /* SystemView.swift */,
+				018C14DA2082B3CB004EF535 /* Magnetometer.swift */,
 			);
 			path = "iOS Functionality Project";
 			sourceTree = "<group>";
@@ -152,6 +155,7 @@
 				01354BD4207ECC8B00800BC5 /* Barometer.swift in Sources */,
 				01354BD2207ECC8000800BC5 /* Accelerometer.swift in Sources */,
 				019B07DA207EA828001A67C6 /* MainDirectory.swift in Sources */,
+				018C14DB2082B3CB004EF535 /* Magnetometer.swift in Sources */,
 				019B07D8207EA828001A67C6 /* AppDelegate.swift in Sources */,
 				01354BD6207ECC9700800BC5 /* HapticFeedback.swift in Sources */,
 			);

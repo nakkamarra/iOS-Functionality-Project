@@ -16,7 +16,7 @@ class Accelerometer : UIViewController {
     let zLabel = UILabel()
     let trigger = UIButton(type: .roundedRect)
     let motionManager = CMMotionManager()
-    let accelerometerReadRate = 1.0 / 10.0
+    let accelerometerReadRate = 1.0 / 10.0 //10Hz
     var timer : Timer?
     
     override func viewDidLoad() {
