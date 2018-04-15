@@ -28,6 +28,10 @@ Since the pressure exerted on the device in a normal situation should be around 
 ## Demonstration Clips
 Here are some clips of an actual device being recorded using QuickTime to demonstrate each class. In each video, we can see that the UI and the functionality of each class requires more memory and some increased percentage of CPU from the device: 
 
+<video width="320" height="240" controls>
+  <source src="/Demonstration Video Files/Gyroscope.mov" type="video/mov">
+</video>
+
 ![Gyroscope](/Demonstration Video Files/Gyroscope.mov "Observe the change in rotation in each axis as the device is rotated. The rotation can be roughly understood as the reverse effect of the green view's movement (device tilt away from user moves the view toward the user).")
 
 ![Haptic Feedback](/Demonstration Video Files/Haptic Feedback.mov "Although the vibration from the haptic feedback cannot be felt, this clip at least shows the animation differences between each intensity of haptic feedback.")
