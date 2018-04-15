@@ -41,7 +41,7 @@ Although the vibration from the haptic feedback cannot be felt, this clip at lea
 
 Observe the change in relative altitude as the phone is raised above and then lowered below the original starting position. This clip also demonstrates the atmospheric pressure in kilopascals (1 ATM ≈ 101 kPa).
 
-<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Barometer.gif" width="240">
+<img src="https://github.com/nakkamarra/iOS-Functionality-Project/blob/master/Demonstration%20Video%20Files/Altimeter.gif" width="240">
 
 
 Observe how, when the phone is held along some given axis, the gravitational constant can be seen as the velocity of the device in that dimension. This clip explores each axis in positive and negative (up and down).
